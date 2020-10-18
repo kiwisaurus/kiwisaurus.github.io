@@ -168,7 +168,7 @@
   }
   
   // Computes score and returns a paragraph element to be displayed
-  function displayScore() {
+   function displayScore() {
     var answerKey = {
         "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order Sol","Potemkin","Slayer","Venom","Zappa","Testament",1],
         "Outmaneuver":["Bridget","Chipp","Dizzy","Jam","Millia",1],
@@ -191,7 +191,7 @@
         "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo-Ky","Testament","Venom","ABA",2],
         "Yes, but as long as it controls space it's fine":["Anji","Baiken","Chipp","Faust","Johnny","Kliff","May","Millia","Sol","Zappa",2],
         "No, dashing is the best projectile anyway":["Jam","Slayer","Potemkin","Order Sol",2],
-        "Yes, the key to winning is a flowchart to victory":["Anji","Baiken","Chipp","Dizzy","Eddie","I-No","Kliff","Ky","Millia","Testamnet","Venom",2],
+        "Yes, the key to winning is a flowchart to victory":["Anji","Baiken","Chipp","Dizzy","Eddie","I-no","Kliff","Ky","Millia","Testament","Venom",2],
         "No, I'd rather focus on other things":["Anji","Baiken","Chipp","Dizzy","Eddie","I-no","Kliff","Ky","Millia","Testamnet","Venom",-1],
         "Yes, meterless traditional Dragon Punch":["Sol","Chipp","Ky","Order Sol","Jam",3],
         "Yes, but metered or nontraditional is fine":["Robo Ky","ABA","Axl","Baiken","Bridget","Dizzy","Johnny","Justice","May","Millia","Slayer","Testament","I-no",1],
@@ -200,7 +200,7 @@
         "Mid":["Sol","May","Eddie","Potemkin","Axl","Justice","Anji","Johnny","Venom","I-no","Slayer","Order Sol",3],
         "Low":["Ky","Kliff","Bridget","Robo Ky","ABA",3],
         "Easy Difficulty":["Sol","ABA","Jam","Ky","Anji","Millia","Axl","Kliff","Faust","Justice","Potemkin",5],
-        "Medium Difficulty":["Order Sol","Slayer","Chipp","Baiken","Robo-Ky","Bridget","Testament",5],
+        "Medium Difficulty":["Order Sol","Slayer","Chipp","Baiken","Robo Ky","Bridget","Testament",5],
         "Hard Difficulty":["May","Johnny","I-no","Eddie","Dizzy","Zappa",2]
     };
     
