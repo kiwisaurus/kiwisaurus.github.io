@@ -192,7 +192,7 @@
         "Yes, but as long as it controls space it's fine":["Anji","Baiken","Chipp","Faust","Johnny","Kliff","May","Millia","Sol","Zappa",2],
         "No, dashing is the best projectile anyway":["Jam","Slayer","Potemkin","Order Sol",2],
         "Yes, the key to winning is a flowchart to victory":["Anji","Baiken","Chipp","Dizzy","Eddie","I-no","Kliff","Ky","Millia","Testament","Venom",2],
-        "No, I'd rather focus on other things":["Anji","Baiken","Chipp","Dizzy","Eddie","I-no","Kliff","Ky","Millia","Testamnet","Venom",-1],
+        "No, I'd rather focus on other things":["Anji","Baiken","Chipp","Dizzy","Eddie","I-no","Kliff","Ky","Millia","Testament","Venom",-1],
         "Yes, meterless traditional Dragon Punch":["Sol","Chipp","Ky","Order Sol","Jam",3],
         "Yes, but metered or nontraditional is fine":["Robo Ky","ABA","Axl","Baiken","Bridget","Dizzy","Johnny","Justice","May","Millia","Slayer","Testament","I-no",1],
         "No, I can block":["Anji","Eddie","Faust","Kliff","Potemkin","Venom","Zappa",3],
