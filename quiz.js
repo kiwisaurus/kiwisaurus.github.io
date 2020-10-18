@@ -18,8 +18,8 @@
       question: "Do you enjoy staying in control?",
       choices: ["Yes, the less they play the more I play", "No, there is not a finite amount of game to go around", "No Opinion"]
   }, {
-      question: "Do you want stances?",
-      choices: ["Yes, what moves I have should be a mixup", "No, If I wanted more moves I'd play a tag fighter", "No Opinion"]
+      question: "Do you want to manage a resource besides standard meter?",
+      choices: ["Yes, I want whacky meters", "No, just the standard meter is enough", "No Opinion"]
   }, {
       question: "Do you want a projectile?",
       choices: ["Yes, I want one that goes across the whole screen and ideally into someone else's game", "Yes, but as long as it controls space it's fine", "No, dashing is the best projectile anyway", "No Opinion"]
@@ -195,10 +195,10 @@
         "Yes, the less they play the more I play":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order Sol","Testament","Venom",3],
         "No, there is not a finite amount of game to go around":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order Sol","Testament","Venom",-2],
         
-        "Yes, what moves I have should be a mixup":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament", "Johnny",3],
-        "No, If I wanted more moves I'd play a tag fighter":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament","Johnny",-5],
+        "Yes, I want whacky meters":["Zappa","Robo Ky", "Order Sol","Jam","ABA","Testament", "Johnny","Eddie",5],
+        "No, just the standard meter is enough":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament","Johnny","Eddie",-5],
         
-        "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo Ky","Testament","Venom","ABA",3],
+        "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo Ky","Testament","Venom","ABA",4],
         "Yes, but as long as it controls space it's fine":["Anji","Baiken","Chipp","Faust","Johnny","Kliff","May","Millia","Sol","Zappa",2],
         "No, dashing is the best projectile anyway":["Jam","Slayer","Potemkin","Order Sol",2],
         
@@ -209,14 +209,14 @@
         "Yes, but metered or nontraditional is fine":["Robo Ky","ABA","Axl","Baiken","Bridget","Dizzy","Johnny","Justice","May","Millia","Slayer","Testament","I-no",1],
         "No, I can block":["Anji","Eddie","Faust","Kliff","Potemkin","Venom","Zappa",1],
         
-        "Yes, I want to charge":["Anji","Axl","May","Potemkin","Venom",3],
+        "Yes, I want to charge":["Anji","Axl","May","Potemkin","Venom",5],
         "No, I'm not into that":["Anji","Axl","May","Potemkin","Venom",-5],
         
         "High":["Testament","Baiken","Zappa","Millia","Chipp","Faust","Jam","Dizzy",3],
         "Mid":["Sol","May","Eddie","Potemkin","Axl","Justice","Anji","Johnny","Venom","I-no","Slayer","Order Sol",3],
         "Low":["Ky","Kliff","Bridget","Robo Ky","ABA",3],
         
-        "Easy Difficulty":["Sol","ABA","Jam","Ky","Anji","Millia","Axl","Kliff","Faust","Justice","Potemkin",5],
+        "Easy Difficulty":["Sol","ABA","Jam","Ky","Anji","Millia","Axl","Kliff","Faust","Justice","Potemkin",7],
         "Medium Difficulty":["Order Sol","Slayer","Chipp","Baiken","Robo Ky","Bridget","Testament",5],
         "Hard Difficulty":["May","Johnny","I-no","Eddie","Dizzy","Zappa",4],
         
@@ -224,31 +224,31 @@
     };
     
     var characterKey = {
-        "ABA":0,
-        "Anji":0,
-        "Axl":0,
-        "Baiken":0,
-        "Bridget":0,
-        "Chipp":0,
-        "Dizzy":0,
-        "Eddie":0,
-        "Faust":0,
-        "I-no":0,
-        "Jam":0,
-        "Johnny":0,
-        "Justice":0,
-        "Kliff":0,
-        "Ky":0,
-        "May":0,
-        "Millia":0,
-        "Order Sol":0,
-        "Potemkin": 0,
-        "Robo Ky": 0,
-        "Slayer": 0,
-        "Sol":0,
-        "Testament":0,
-        "Venom":0,
-        "Zappa":0
+        "ABA":[0,"https://www.youtube.com/watch?v=bsIPfBzp5O4"],
+        "Anji":[0,"https://www.youtube.com/watch?v=EgT9R4YEBwA"],
+        "Axl":[0,"https://www.youtube.com/watch?v=N6IIghe5_Os"],
+        "Baiken":[0,"https://www.youtube.com/watch?v=SXrgyAzjjJs"],
+        "Bridget":[0,"https://www.youtube.com/watch?v=7ikFr0gOoV8"],
+        "Chipp":[0,"https://www.youtube.com/watch?v=YiPQ_p6E-Gw"],
+        "Dizzy":[0,"https://www.youtube.com/watch?v=3XN5uZz5ncw"],
+        "Eddie":[0,"https://www.youtube.com/watch?v=VfouOVyyhiM"],
+        "Faust":[0,"https://www.youtube.com/watch?v=Z9XS40ZAkhU"],
+        "I-no":[0,"https://www.youtube.com/watch?v=YKdMBbMlojU"],
+        "Jam":[0,"https://www.youtube.com/watch?v=prHmfNfBxDk"],
+        "Johnny":[0,"https://www.youtube.com/watch?v=6NfJ3pn0FgQ"],
+        "Justice":[0,"https://www.youtube.com/watch?v=wYssPNLHp_Y"],
+        "Kliff":[0,"https://www.youtube.com/watch?v=TzSG6VRw_j0"],
+        "Ky":[0,"https://www.youtube.com/watch?v=RF1QTDpgM0Q"],
+        "May":[0,"https://www.youtube.com/watch?v=wzDZ8tOBdyE"],
+        "Millia":[0,"https://www.youtube.com/watch?v=qJ6lalWfYRk"],
+        "Order Sol":[0,"https://www.youtube.com/watch?v=cTnI-XksUgs"],
+        "Potemkin": [0,"https://www.youtube.com/watch?v=3VRHkpWE8Bo"],
+        "Robo Ky": [0,"https://www.youtube.com/watch?v=o8jxv0ySFNc"],
+        "Slayer": [0,"https://www.youtube.com/watch?v=qdUwjzHcTnY"],
+        "Sol":[0,"https://www.youtube.com/watch?v=yXxyzS1o_XQ"],
+        "Testament":[0,"https://www.youtube.com/watch?v=6dywZziE5nM"],
+        "Venom":[0,"https://www.youtube.com/watch?v=LqYupY43714"],
+        "Zappa":[0, "https://www.youtube.com/watch?v=EfqCXuJP3fE"]
     }
     for (var i = 0; i < selections.length; i++) {
         console.log(selections[i]+ ' ' + answerKey[selections[i]]);
@@ -256,8 +256,8 @@
         for (var j=0; j< answerKey[selections[i]].length-1; j++) {
             var characterToScore = answerKey[selections[i]][j];
             var scoreSpot = answerKey[selections[i]].length-1
-            characterKey[characterToScore] += answerKey[selections[i]][scoreSpot];
-            console.log(characterKey[characterToScore]+ ' '+ characterToScore);
+            characterKey[characterToScore][0] += answerKey[selections[i]][scoreSpot];
+            console.log(characterKey[characterToScore][0]+ ' '+ characterToScore);
         }
     }
     var score = $('<p>',{id: 'question'});
@@ -265,9 +265,11 @@
                                               return [key, characterKey[key]];
                                               });
     items.sort(function(first, second) {
-        return second[1] - first[1];
+        return second[1][0] - first[1][0];
     });
-    score.append('You got ' + items[0][0], '<br>' + ' Or try: ' + items[1][0] + ' or ' +items[2][0]);
+    //console.log(items[0][1][1]);
+    //var choices = [$('<a href="'+items[0][2]+'">'+items[0][0]+'</a>'), $('<a href="'+items[1][2]+'">'+items[1][0]+'</a>'),$('<a href="'+items[2][2]+'">'+items[2][0]+'</a>')];
+    score.append('You got ' + '<a href="'+items[0][1][1]+'">'+items[0][0]+'</a>', '<br>' + ' Or try: ' + '<a href="'+items[1][1][1]+'">'+items[1][0]+'</a>' + ' or ' +'<a href="'+items[2][1][1]+'">'+items[2][0]+'</a>');
     return score;
   }
 })();
