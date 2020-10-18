@@ -170,10 +170,10 @@
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
     var answerKey = {
-        "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order-Sol","Potemkin","Slayer","Venom","Zappa","Testament",1],
+        "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order Sol","Potemkin","Slayer","Venom","Zappa","Testament",1],
         "Outmaneuver":["Bridget","Chipp","Dizzy","Jam","Millia",1],
         "Balanced":["Anji","Axl","Ky","Sol","Robo Ky",1],
-        "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order-Sol","Slayer","Sol","Venom",1],
+        "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order Sol","Slayer","Sol","Venom",1],
         "Durability":["ABA","Anji","Justice","Potemkin",1],
         "Mobility":["Dizzy","Millia",1],
         "Utility":["Axl","Bridget","Chipp","Eddie","Faust","Ky Kiske","Robo Ky","Testament","Zappa",1],
@@ -184,8 +184,8 @@
         "No, I'm in a frat":["Bridget","Dizzy","Justice","Venom","Testament","Axl","Faust",-1],
         "No, I like my personal space":["Sol","Order Sol","Slayer","Chipp","Millia","Potemkin","Kliff","Jam","ABA","May",-1],
         "Yes, I'm running at you right now":["Sol","Order Sol","Slayer","Chipp","Millia","Potemkin","Kliff","Jam","ABA","May",3],
-        "Yes, the less they play the more I play":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order-Sol","Testament","Venom",3],
-        "No, there is not a finite amount of game to go around":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order-Sol","Testament","Venom",-1],
+        "Yes, the less they play the more I play":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order Sol","Testament","Venom",3],
+        "No, there is not a finite amount of game to go around":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order Sol","Testament","Venom",-1],
         "Yes, what moves I have should be a mixup":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament",3],
         "No, If I wanted more moves I'd play a tag fighter":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament",-2],
         "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo-Ky","Testament","Venom","ABA",2],
