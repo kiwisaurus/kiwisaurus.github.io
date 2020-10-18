@@ -198,7 +198,7 @@
         "Yes, what moves I have should be a mixup":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament", "Johnny",3],
         "No, If I wanted more moves I'd play a tag fighter":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament","Johnny",-5],
         
-        "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo-Ky","Testament","Venom","ABA",3],
+        "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo Ky","Testament","Venom","ABA",3],
         "Yes, but as long as it controls space it's fine":["Anji","Baiken","Chipp","Faust","Johnny","Kliff","May","Millia","Sol","Zappa",2],
         "No, dashing is the best projectile anyway":["Jam","Slayer","Potemkin","Order Sol",2],
         
@@ -209,8 +209,8 @@
         "Yes, but metered or nontraditional is fine":["Robo Ky","ABA","Axl","Baiken","Bridget","Dizzy","Johnny","Justice","May","Millia","Slayer","Testament","I-no",1],
         "No, I can block":["Anji","Eddie","Faust","Kliff","Potemkin","Venom","Zappa",1],
         
-        "Yes, I want to charge":["Anji","Axl","May","Potemkin",3],
-        "No, I'm not into that":["Anji","Axl","May","Potemkin",-5],
+        "Yes, I want to charge":["Anji","Axl","May","Potemkin","Venom",3],
+        "No, I'm not into that":["Anji","Axl","May","Potemkin","Venom",-5],
         
         "High":["Testament","Baiken","Zappa","Millia","Chipp","Faust","Jam","Dizzy",3],
         "Mid":["Sol","May","Eddie","Potemkin","Axl","Justice","Anji","Johnny","Venom","I-no","Slayer","Order Sol",3],
