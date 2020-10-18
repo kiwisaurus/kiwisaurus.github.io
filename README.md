@@ -1,1 +1,1 @@
-"# GGXXACPRCharacterQuiz" 
+permalink: /index.html
