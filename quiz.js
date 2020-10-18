@@ -172,7 +172,7 @@
     var answerKey = {
         "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order-Sol","Potemkin","Slayer","Venom","Zappa","Testament",1],
         "Outmaneuver":["Bridget","Chipp","Dizzy","Jam","Millia",1],
-        "Balance":["Anji","Axl","Ky","Sol","Robo Ky",1],
+        "Balanced":["Anji","Axl","Ky","Sol","Robo Ky",1],
         "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order-Sol","Slayer","Sol","Venom",1],
         "Durability":["ABA","Anji","Justice","Potemkin",1],
         "Mobility":["Dizzy","Millia",1],
