@@ -180,7 +180,7 @@
         "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order Sol","Slayer","Sol","Venom",3],
         "Durability":["ABA","Anji","Justice","Potemkin",3],
         "Mobility":["Dizzy","Millia",3],
-        "Utility":["Axl","Bridget","Chipp","Eddie","Faust","Ky Kiske","Robo Ky","Testament","Zappa",3],
+        "Utility":["Axl","Bridget","Chipp","Eddie","Faust","Ky","Robo Ky","Testament","Zappa",3],
         
         "Close":["ABA","Sol","Jam","Order Sol","Slayer","Potemkin","Chipp","May",3],
         "Medium":["Ky","Anji","Millia","Baiken","Robo Ky","Johnny","Axl","Kliff","Bridget","Zappa","I-no",3],
@@ -257,24 +257,17 @@
             var characterToScore = answerKey[selections[i]][j];
             var scoreSpot = answerKey[selections[i]].length-1
             characterKey[characterToScore] += answerKey[selections[i]][scoreSpot];
-            console.log(characterKey[characterToScore]+ ' '+characterToScore);
+            console.log(characterKey[characterToScore]+ ' '+ characterToScore);
         }
     }
-    var choice = "";
     var score = $('<p>',{id: 'question'});
-    var choiceScore = -100;
-    for(var key1 in characterKey){
-        if (characterKey[key1] > choiceScore){
-            choiceScore = characterKey[key1];
-            choice = key1;
-            console.log(choice);
-        }
-        
-        else if (characterKey[key1] == choiceScore){
-            choice = choice + ' or ' + key1;
-        }
-    }  
-    score.append('You got ' + choice);
+    var items = Object.keys(characterKey).map(function(key) {
+                                              return [key, characterKey[key]];
+                                              });
+    items.sort(function(first, second) {
+        return second[1] - first[1];
+    });
+    score.append('You got ' + items[0][0], '<br>' + ' Or try: ' + items[1][0] + ' or ' +items[2][0]);
     return score;
   }
 })();
